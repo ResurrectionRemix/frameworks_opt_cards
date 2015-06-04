@@ -25,7 +25,7 @@ import java.util.List;
  */
 public class TransformableDrawable extends Drawable {
 
-    private static final long ANIMATION_DURATION = 150;
+    private static final long ANIMATION_DURATION = 250;
     public static final int DEF_LINES_COLOR = Color.DKGRAY;
     public static final int DEF_BACKGROUND_COLOR = Color.WHITE;
     public static final int DEF_LINE_WIDTH = 4;
