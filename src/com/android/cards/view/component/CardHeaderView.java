@@ -31,7 +31,6 @@ import android.widget.FrameLayout;
 import android.widget.ImageButton;
 import android.widget.PopupMenu;
 
-import com.android.buttons.TransformableButton;
 import com.android.cards.R;
 import com.android.cards.internal.CardHeader;
 import com.android.cards.view.base.CardViewInterface;
@@ -110,7 +109,7 @@ public class CardHeaderView extends FrameLayout implements CardViewInterface {
     /**
      * Expand/Collapse button
      */
-    protected TransformableButton mImageButtonExpand;
+    protected ImageButton mImageButtonExpand;
 
     /**
      * Other Button
@@ -210,7 +209,7 @@ public class CardHeaderView extends FrameLayout implements CardViewInterface {
         mInternalOuterView = inflater.inflate(card_header_layout_resourceID, this, true);
 
         //Get buttons from layout
-        mImageButtonExpand = (TransformableButton) findViewById(R.id.card_header_button_expand);
+        mImageButtonExpand = (ImageButton) findViewById(R.id.card_header_button_expand);
         mImageButtonOverflow = (ImageButton) findViewById(R.id.card_header_button_overflow);
         mImageButtonOther = (ImageButton) findViewById(R.id.card_header_button_other);
 
@@ -548,7 +547,7 @@ public class CardHeaderView extends FrameLayout implements CardViewInterface {
      *
      * @return {@link ImageButton}
      */
-    public TransformableButton getImageButtonExpand() {
+    public ImageButton getImageButtonExpand() {
         return mImageButtonExpand;
     }
 
