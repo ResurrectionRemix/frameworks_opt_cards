@@ -19,10 +19,9 @@
   -->
 <!-- This is the InnerContent of Header -->
 
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              android:orientation="vertical"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:layout_width="wrap_content"
-              android:layout_height="wrap_content">
+              android:layout_height="match_parent">
 
 
     <!-- This is the base Inner View inside a CardHeader.
@@ -32,6 +31,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/card_header_inner_simple_title"
-        style="@style/card.header_simple_title"/>
+        style="@style/card.header_simple_title"
+        android:layout_centerVertical="true"/>
 
-</LinearLayout>
+</RelativeLayout>
