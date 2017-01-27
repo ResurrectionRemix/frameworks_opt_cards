@@ -17,8 +17,7 @@ include $(CLEAR_VARS)
 
 LOCAL_STATIC_JAVA_LIBRARIES := \
         android-support-v4 \
-        android-support-v7-cardview \
-        org.slim.framework
+        android-support-v7-cardview
 
 LOCAL_JAVA_LIBRARIES := \
         android-support-v7-recyclerview
